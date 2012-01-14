@@ -38,7 +38,7 @@ BufferHelper.prototype._toBuffer = function () {
       break;
   }
   // Cache the computed result
-  this._status === "computed";
+  this._status = "computed";
   this.buffer = data;
   return data;
 };
