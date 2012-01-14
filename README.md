@@ -2,10 +2,10 @@ Usage:
 
   var http = require('http');
   var BufferHelper = require('bufferhelper');
-
+  
   http.createServer(function (request, response) {
     var bufferHelper = new BufferHelper();
-
+  
     request.on("data", function (chunk) {
       bufferHelper.concat(chunk);
     });
@@ -14,6 +14,6 @@ Usage:
       response.writeHead(200);
       response.end(html);
     });
-
+  
   }).listen(8001);
 
