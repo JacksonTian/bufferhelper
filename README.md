@@ -1,3 +1,5 @@
+Reason of written `bufferhelper`: [小心data事件里的chunk拼接](http://cnodejs.org/blog/?p=5425).
+
 Install it via NPM:
   
     npm install bufferhelper
@@ -20,3 +22,4 @@ Usage:
         });
   
     }).listen(8001);
+
