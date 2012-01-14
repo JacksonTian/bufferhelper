@@ -1,3 +1,7 @@
+Install it via NPM:
+  
+    npm install bufferhelper
+
 Usage:
 
     var http = require('http');
