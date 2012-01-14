@@ -1,0 +1,17 @@
+{
+  "author": "Jackson Tian <shyvo1987@gmail.com> (http://weibo.com/shyvo)",
+  "name": "bufferhelper",
+  "description": "Concat buffer correctly.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/JacksonTian/bufferhelper",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/bufferhelper.git"
+  },
+  "main": "bufferhelper.js",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
