@@ -18,6 +18,13 @@ BufferHelper.prototype._concat = function (buffer) {
   return this;
 };
 
+BufferHelper.prototype.empty = function () {
+  this.buffers = [];
+  this.size = 0;
+  this._status = "changed";
+  return this;
+};
+
 BufferHelper.prototype._toBuffer = function () {
   var data = null;
   var buffers = this.buffers;
