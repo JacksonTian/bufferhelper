@@ -10,7 +10,7 @@
   },
   "main": "bufferhelper.js",
   "engines": {
-    "node": "~0.6.6"
+    "node": ">= 0.4.0"
   },
   "dependencies": {},
   "devDependencies": {}
