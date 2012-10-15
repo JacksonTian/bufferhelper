@@ -1,11 +1,13 @@
-[![build status](https://secure.travis-ci.org/JacksonTian/bufferhelper.png)](http://travis-ci.org/JacksonTian/bufferhelper)
+BufferHelper [![build status](https://secure.travis-ci.org/JacksonTian/bufferhelper.png)](http://travis-ci.org/JacksonTian/bufferhelper)
+======
+## Why?
 Reason of written `bufferhelper`: [小心data事件里的chunk拼接](http://cnodejs.org/blog/?p=5425).
 
-Install it via NPM:
+## Install it via NPM
   
     npm install bufferhelper
 
-Usage:
+## Usage
 
     var http = require('http');
     var BufferHelper = require('bufferhelper');
