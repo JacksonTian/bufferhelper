@@ -8,10 +8,15 @@
     "type": "git",
     "url": "git://github.com/JacksonTian/bufferhelper.git"
   },
-  "main": "bufferhelper.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "engines": {
     "node": ">= 0.4.0"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
 }
