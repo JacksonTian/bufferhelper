@@ -2,14 +2,14 @@
   "author": "Jackson Tian <shyvo1987@gmail.com> (http://weibo.com/shyvo)",
   "name": "bufferhelper",
   "description": "Concat buffer correctly.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/JacksonTian/bufferhelper",
   "repository": {
     "type": "git",
     "url": "git://github.com/JacksonTian/bufferhelper.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha -R spec"
   },
   "engines": {
     "node": ">= 0.4.0"
