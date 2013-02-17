@@ -38,7 +38,7 @@ var BufferHelper = require('bufferhelper');
 
 http.createServer(function (request, response) {
   var bufferHelper = new BufferHelper();
-  bufferHelper.load(request, function (buffer) {
+  bufferHelper.load(request, function (err, buffer) {
     var html = buffer.toString();
     response.writeHead(200);
     response.end(html);
