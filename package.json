@@ -18,5 +18,15 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "698a8156cd7c7719ce8ff37075cfbfc9bb16299f",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "Buffer"
+  ],
+  "license": "MIT"
 }
