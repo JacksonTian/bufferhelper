@@ -12,6 +12,7 @@ describe("BufferHelper", function () {
     var bh = new BufferHelper();
     var buffer = new Buffer("呵呵");
     bh.concat(buffer);
+    bh.length.should.be.equal(6);
     bh.toBuffer().should.have.length(buffer.length);
     bh.buffers.should.have.length(1);
   });
